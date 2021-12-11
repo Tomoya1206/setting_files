@@ -35,8 +35,8 @@ pipeline{
                 sh"""
                 cd src/
                 gcc -o "${CONFIG.filename}".out hello.c
-                ./hello.out
-                mv hello.out ../artifact/
+                ./"${CONFIG.filename}".out
+                mv "${CONFIG.filename}".out ../artifact/
                 cd ../
                 """
             }
