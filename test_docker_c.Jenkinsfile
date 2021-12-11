@@ -9,7 +9,7 @@ pipeline{
         stage('load config'){
             steps{
                 script{
-                    CONFIG = reafYaml(file: 'config.yml')
+                    CONFIG = readYaml(file: 'config.yml')
                 }
             }
         }
