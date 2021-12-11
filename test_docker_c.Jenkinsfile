@@ -28,7 +28,7 @@ pipeline{
                 docker{
                     image 'ubuntu:ccpp'
                     args "-v ${WORKSPACE}/src:/home/projects"
-                    reuseNode true
+//                    reuseNode true
                 }
             }
             steps{
