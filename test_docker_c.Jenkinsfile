@@ -33,6 +33,8 @@ pipeline{
             }
             steps{
                 sh"""
+                pwd
+                ls
                 cd src/
                 gcc -o "${CONFIG.filename}".out hello.c
                 ./"${CONFIG.filename}".out
