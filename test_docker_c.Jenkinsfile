@@ -50,7 +50,7 @@ pipeline{
                 git branch -a
                 git add .
                 git commit -m "add artifact"
-                git remote set-url origin https://Tomoya1206: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@github.com/Tomoya1206/artifact.git
+                git remote set-url origin https://Tomoya1206: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@github.com/Tomoya1206/artifact.git
                 git push -u origin main
                 """
             }
