@@ -46,7 +46,6 @@ pipeline{
             steps{
                 sh"""
                 cd artifact/
-                git init
                 git checkout -b main
                 git branch -a
                 git add .
